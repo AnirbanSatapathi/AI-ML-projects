@@ -1,0 +1,31 @@
+[project]
+name = "resume-screener"
+version = "0.1.0"
+description = "Resume Screening Assistant"
+requires-python = ">=3.9"
+dependencies = [
+    "pymupdf",
+    "python-docx",
+    "sentence-transformers",
+    "numpy",
+    "pandas",
+    "streamlit",
+    "plotly",
+    "scikit-learn",
+    "python-multipart",
+    "streamlit-option-menu",
+    "streamlit-extras",
+    "openpyxl"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "pytest-cov"
+]
+[tool.hatch.build.targets.wheel]
+packages = ["./"]

@@ -1,4 +1,4 @@
-# Advanced Resume Screening Assistant
+# Resume Screening Assistant
 
 An AI-powered Streamlit web application that automates resume screening by comparing resumes against a job description (JD). It extracts text, contact information, and skills from resumes and ranks candidates based on semantic similarity with the JD.
 
@@ -18,9 +18,11 @@ An AI-powered Streamlit web application that automates resume screening by compa
 
 ## Tech Stack
 
-- **Python 3.10+**  
+- **Python**  
 - **Streamlit** – Web interface  
 - **PyMuPDF (fitz)** – PDF parsing  
 - **python-docx** – DOCX parsing  
 - **Sentence Transformers** – NLP embeddings for semantic similarity  
 - **Pandas & Plotly** – Data processing & visualization
+
+
